@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Headline Neutrality Project - Live Presentation Dashboard</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --primary: #2563eb;
+      --success: #059669;
+      --danger: #dc2626;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 30px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    }
+    header h1 { margin: 0 0 10px 0; font-size: 28px; }
+    header p { margin: 0; font-size: 16px; opacity: 0.9; }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 25px;
+    }
+    .grid-full {
+      grid-column: span 2;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #0f172a;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 600;
+    }
+    .rank-1 { color: var(--success); font-weight: bold; }
+    .rank-5 { color: var(--danger); font-weight: bold; }
+    .speaker-box {
+      background: #f0fdf4;
+      border-left: 4px solid var(--success);
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-top: 12px;
+      line-height: 1.5;
+    }
+    .svg-container {
+      width: 100%;
+      border: 1px solid #f1f5f9;
+      border-radius: 8px;
+      background: white;
+      overflow: hidden;
+    }
+    img, object {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Headline Neutrality Index (HNI) Analysis</h1>
+      <p>An End-to-End LLM Computational Linguistics &amp; Machine Learning Study</p>
+      <div class="badge">Google Gemini 2.5 Structured Scoring • Modules I to VIII Integration • Scikit-Learn</div>
+    </header>
+
+    <!-- Leaderboard Table -->
+    <div class="card" style="margin-bottom: 25px;">
+      <h2>🏆 Final Headline Neutrality Leaderboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>News Outlet</th>
+            <th>Mean HNI (0–12) ↑</th>
+            <th>Total Bias (3–15) ↓</th>
+            <th>Emotional Intensity</th>
+            <th>Loaded Language</th>
+            <th>Presupposition</th>
+            <th>Classification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rank-1">#1</td>
+            <td><strong>Reuters</strong></td>
+            <td><strong>12.00 / 12</strong></td>
+            <td>3.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span style="color:#059669; font-weight:600;">Wire Factual (Gold Standard)</span></td>
+          </tr>
+          <tr>
+            <td class="rank-1">#2</td>
+            <td><strong>Associated Press</strong></td>
+            <td><strong>12.00 / 12</strong></td>
+            <td>3.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span style="color:#059669; font-weight:600;">Wire Factual (Gold Standard)</span></td>
+          </tr>
+          <tr>
+            <td>#3</td>
+            <td><strong>BBC News</strong></td>
+            <td><strong>9.00 / 12</strong></td>
+            <td>6.00</td>
+            <td>2.00</td>
+            <td>2.00</td>
+            <td>2.00</td>
+            <td><span style="color:#2563eb; font-weight:600;">Moderate Narrative</span></td>
+          </tr>
+          <tr>
+            <td>#4</td>
+            <td><strong>CNN</strong></td>
+            <td><strong>4.50 / 12</strong></td>
+            <td>10.50</td>
+            <td>3.75</td>
+            <td>3.75</td>
+            <td>3.00</td>
+            <td><span style="color:#ea580c; font-weight:600;">Commercial Affective / Left</span></td>
+          </tr>
+          <tr>
+            <td class="rank-5">#5</td>
+            <td><strong>Fox News</strong></td>
+            <td><strong>1.50 / 12</strong></td>
+            <td>13.50</td>
+            <td>4.50</td>
+            <td>4.50</td>
+            <td>4.50</td>
+            <td><span style="color:#dc2626; font-weight:600;">Commercial Affective / Right</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Visual Charts Grid -->
+    <div class="grid">
+      <!-- Exhibit 1: Boxplot -->
+      <div class="card">
+        <h2>Exhibit 1: HNI Distribution Across Outlets</h2>
+        <div class="svg-container">
+          <object data="eda_hni_distribution.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="speaker-box">
+          <strong>Live Speaker Note:</strong> Notice how Reuters and AP show zero variance—all headlines land on the pure 12.0 wire factual standard. Cable channels spread across wide variance with high emotional intensity.
+        </div>
+      </div>
+
+      <!-- Exhibit 2: Dendrogram -->
+      <div class="card">
+        <h2>Exhibit 2: Unsupervised Clustering Dendrogram</h2>
+        <div class="svg-container">
+          <object data="hierarchical_clustering_dendrogram.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="speaker-box">
+          <strong>Live Speaker Note:</strong> Without labels, the unsupervised Ward Linkage algorithm clusters Reuters and AP together instantly at distance 0.2, placing CNN and Fox News in a distant commercial cluster.
+        </div>
+      </div>
+
+      <!-- Exhibit 3: Decision Tree -->
+      <div class="card grid-full">
+        <h2>Exhibit 3: Explainable Decision Tree for Newsroom Editors</h2>
+        <div class="svg-container">
+          <object data="decision_tree_managerial.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="speaker-box">
+          <strong>Managerial Takeaway:</strong> If Loaded Language > 2.5 and Presupposition > 3.5, the headline is categorized as high bias with 100% confidence. This gives editors transparent, auditable rules rather than a black-box model.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

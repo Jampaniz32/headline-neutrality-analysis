@@ -1,0 +1,271 @@
+{
+  "leaderboard": [
+    {
+      "outlet": "Reuters",
+      "mean_hni": 12,
+      "mean_total_bias": 3,
+      "mean_emotional_intensity": 1,
+      "mean_loaded_language": 1,
+      "mean_presupposition": 1,
+      "rank": 1
+    },
+    {
+      "outlet": "Associated Press",
+      "mean_hni": 12,
+      "mean_total_bias": 3,
+      "mean_emotional_intensity": 1,
+      "mean_loaded_language": 1,
+      "mean_presupposition": 1,
+      "rank": 2
+    },
+    {
+      "outlet": "BBC",
+      "mean_hni": 9,
+      "mean_total_bias": 6,
+      "mean_emotional_intensity": 2,
+      "mean_loaded_language": 2,
+      "mean_presupposition": 2,
+      "rank": 3
+    },
+    {
+      "outlet": "CNN",
+      "mean_hni": 4.5,
+      "mean_total_bias": 10.5,
+      "mean_emotional_intensity": 3.75,
+      "mean_loaded_language": 3.75,
+      "mean_presupposition": 3,
+      "rank": 4
+    },
+    {
+      "outlet": "Fox News",
+      "mean_hni": 1.5,
+      "mean_total_bias": 13.5,
+      "mean_emotional_intensity": 4.5,
+      "mean_loaded_language": 4.5,
+      "mean_presupposition": 4.5,
+      "rank": 5
+    }
+  ],
+  "detailedRecords": [
+    {
+      "outlet": "Reuters",
+      "event_id": "EVT_RATE_HIKE",
+      "headline": "Fed raises interest rates by 25 basis points, signals potential pause",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Pure clinical factual reportage utilizing quantitative metrics and institutional attribution without affective cues."
+    },
+    {
+      "outlet": "Associated Press",
+      "event_id": "EVT_RATE_HIKE",
+      "headline": "Federal Reserve lifts benchmark rate a quarter-point amid cooling inflation",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Neutral, precise procedural description with conventional journalistic attribution and clinical vocabulary."
+    },
+    {
+      "outlet": "BBC",
+      "event_id": "EVT_RATE_HIKE",
+      "headline": "US Fed raises interest rates again despite banking sector jitters",
+      "emotional_intensity": 2,
+      "loaded_language": 2,
+      "presupposition": 2,
+      "total_bias_score": 6,
+      "hni": 9,
+      "justification": "Uses mild narrative idioms ('jitters', 'hangs by thread') to heighten story drama above strict wire style."
+    },
+    {
+      "outlet": "CNN",
+      "event_id": "EVT_RATE_HIKE",
+      "headline": "Fed defies warnings and squeezes borrowers with another aggressive rate hike",
+      "emotional_intensity": 3,
+      "loaded_language": 3,
+      "presupposition": 3,
+      "total_bias_score": 9,
+      "hni": 6,
+      "justification": "Frames economic/administrative acts with dramatic conflict verbs ('squeezes', 'defies') and celebratory labeling."
+    },
+    {
+      "outlet": "Fox News",
+      "event_id": "EVT_RATE_HIKE",
+      "headline": "Bidenflation fallout: Fed hikes rates again as Americans struggle under cost of living",
+      "emotional_intensity": 5,
+      "loaded_language": 5,
+      "presupposition": 5,
+      "total_bias_score": 15,
+      "hni": 0,
+      "justification": "Employs overtly partisan terminology ('Bidenflation', 'onslaught') and presents partisan causality as objective fact."
+    },
+    {
+      "outlet": "Reuters",
+      "event_id": "EVT_BORDER_BILL",
+      "headline": "Senate negotiations over bipartisan border security package stall over asylum rules",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Pure clinical factual reportage utilizing quantitative metrics and institutional attribution without affective cues."
+    },
+    {
+      "outlet": "Associated Press",
+      "event_id": "EVT_BORDER_BILL",
+      "headline": "Bipartisan border compromise hits procedural roadblocks in US Senate",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Neutral, precise procedural description with conventional journalistic attribution and clinical vocabulary."
+    },
+    {
+      "outlet": "BBC",
+      "event_id": "EVT_BORDER_BILL",
+      "headline": "US border crisis: Crucial funding bill hangs by thread in Congress",
+      "emotional_intensity": 2,
+      "loaded_language": 2,
+      "presupposition": 2,
+      "total_bias_score": 6,
+      "hni": 9,
+      "justification": "Uses mild narrative idioms ('jitters', 'hangs by thread') to heighten story drama above strict wire style."
+    },
+    {
+      "outlet": "CNN",
+      "event_id": "EVT_BORDER_BILL",
+      "headline": "Hardline Republicans threaten to derail sensible border compromise",
+      "emotional_intensity": 4,
+      "loaded_language": 4,
+      "presupposition": 3,
+      "total_bias_score": 11,
+      "hni": 4,
+      "justification": "Deploys subjective and moralizing adjectives ('brutal', 'toxic', 'hardline') that evaluate rather than report."
+    },
+    {
+      "outlet": "Fox News",
+      "event_id": "EVT_BORDER_BILL",
+      "headline": "Border chaos surges as Senate Dems push weak legislation full of open-door loopholes",
+      "emotional_intensity": 4,
+      "loaded_language": 4,
+      "presupposition": 4,
+      "total_bias_score": 12,
+      "hni": 3,
+      "justification": "Sensationalizes procedural conflict with hyper-charged imagery ('border chaos', 'reckoning') and loaded rhetoric."
+    },
+    {
+      "outlet": "Reuters",
+      "event_id": "EVT_CLIMATE_RULE",
+      "headline": "EPA issues finalized rule mandating limits on power plant greenhouse gas emissions",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Neutral, precise procedural description with conventional journalistic attribution and clinical vocabulary."
+    },
+    {
+      "outlet": "Associated Press",
+      "event_id": "EVT_CLIMATE_RULE",
+      "headline": "New EPA standards require US fossil fuel power plants to slash carbon pollution",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Pure clinical factual reportage utilizing quantitative metrics and institutional attribution without affective cues."
+    },
+    {
+      "outlet": "BBC",
+      "event_id": "EVT_CLIMATE_RULE",
+      "headline": "US unveils landmark rules forcing coal and gas plants to cut emissions",
+      "emotional_intensity": 2,
+      "loaded_language": 2,
+      "presupposition": 2,
+      "total_bias_score": 6,
+      "hni": 9,
+      "justification": "Uses mild narrative idioms ('jitters', 'hangs by thread') to heighten story drama above strict wire style."
+    },
+    {
+      "outlet": "CNN",
+      "event_id": "EVT_CLIMATE_RULE",
+      "headline": "Biden administration delivers historic climate victory targeting toxic power plants",
+      "emotional_intensity": 4,
+      "loaded_language": 4,
+      "presupposition": 3,
+      "total_bias_score": 11,
+      "hni": 4,
+      "justification": "Deploys subjective and moralizing adjectives ('brutal', 'toxic', 'hardline') that evaluate rather than report."
+    },
+    {
+      "outlet": "Fox News",
+      "event_id": "EVT_CLIMATE_RULE",
+      "headline": "Green New Deal onslaught: EPA's crippling energy mandates threaten reliable power grid",
+      "emotional_intensity": 5,
+      "loaded_language": 5,
+      "presupposition": 5,
+      "total_bias_score": 15,
+      "hni": 0,
+      "justification": "Employs overtly partisan terminology ('Bidenflation', 'onslaught') and presents partisan causality as objective fact."
+    },
+    {
+      "outlet": "Reuters",
+      "event_id": "EVT_TECH_LAYOFFS",
+      "headline": "Tech company announces 5,000 job cuts while redirecting capital into generative AI",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Pure clinical factual reportage utilizing quantitative metrics and institutional attribution without affective cues."
+    },
+    {
+      "outlet": "Associated Press",
+      "event_id": "EVT_TECH_LAYOFFS",
+      "headline": "Major tech firm trims workforce by 5,000 positions in shift toward AI development",
+      "emotional_intensity": 1,
+      "loaded_language": 1,
+      "presupposition": 1,
+      "total_bias_score": 3,
+      "hni": 12,
+      "justification": "Neutral, precise procedural description with conventional journalistic attribution and clinical vocabulary."
+    },
+    {
+      "outlet": "BBC",
+      "event_id": "EVT_TECH_LAYOFFS",
+      "headline": "Tech layoffs continue: 5,000 jobs axed as Silicon Valley pivots to artificial intelligence",
+      "emotional_intensity": 2,
+      "loaded_language": 2,
+      "presupposition": 2,
+      "total_bias_score": 6,
+      "hni": 9,
+      "justification": "Uses mild narrative idioms ('jitters', 'hangs by thread') to heighten story drama above strict wire style."
+    },
+    {
+      "outlet": "CNN",
+      "event_id": "EVT_TECH_LAYOFFS",
+      "headline": "Brutal tech purge claims another 5,000 workers as executives obsess over AI windfall",
+      "emotional_intensity": 4,
+      "loaded_language": 4,
+      "presupposition": 3,
+      "total_bias_score": 11,
+      "hni": 4,
+      "justification": "Deploys subjective and moralizing adjectives ('brutal', 'toxic', 'hardline') that evaluate rather than report."
+    },
+    {
+      "outlet": "Fox News",
+      "event_id": "EVT_TECH_LAYOFFS",
+      "headline": "Corporate reckoning: Tech giants slash thousands of white-collar jobs amidst Silicon Valley slump",
+      "emotional_intensity": 4,
+      "loaded_language": 4,
+      "presupposition": 4,
+      "total_bias_score": 12,
+      "hni": 3,
+      "justification": "Sensationalizes procedural conflict with hyper-charged imagery ('border chaos', 'reckoning') and loaded rhetoric."
+    }
+  ]
+}

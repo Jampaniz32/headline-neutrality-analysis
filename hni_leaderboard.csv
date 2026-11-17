@@ -1,0 +1,6 @@
+outlet,mean_hni,mean_total_bias,mean_emotional_intensity,mean_loaded_language,mean_presupposition,rank
+"Reuters","12","3","1","1","1","1"
+"Associated Press","12","3","1","1","1","2"
+"BBC","9","6","2","2","2","3"
+"CNN","4.5","10.5","3.75","3.75","3","4"
+"Fox News","1.5","13.5","4.5","4.5","4.5","5"
